@@ -1,0 +1,91 @@
+@media screen and (max-width:768px) {
+    div.logo {
+        position: relative;
+        left: -3em;
+    }
+
+    ul.nav-links {
+        position: absolute;
+        left: 9em;
+    }
+    div.snapshot-box-content{
+        flex-direction: column;
+    }
+
+    div.hero-section {
+        padding: 4em 1.5em;
+    }
+
+    div.background {
+        height: fit-content;
+        padding: 15px 50px;
+        padding-left: 0px;
+    }
+
+    div.hero-background {
+        padding: 3rem;
+    }
+    
+    div.hero-background-pos{
+        height: 75px;
+        width: 75px;
+        left: 78%;
+    }
+
+    div.background h4 {
+        padding: 0.5rem 2rem;
+    }
+    
+    div.footer {
+        padding: 1rem;
+    }
+    
+    div.footer-input {
+        flex-flow: column;
+        padding-top: 2.5rem;
+    }
+    
+    div.footer-textarea {
+    padding-top: 1rem;
+    }
+
+    input[type="text"],input[type="email"], textarea {
+        margin-bottom: 1rem;
+        width: 75%;
+        margin-right:0px;
+    }
+
+    div.my_btn {
+        width:35px;
+        height: 35px;
+        background-color:#b7bfc3;
+        position: absolute;
+        right:20px;
+        border-radius:2px;
+    }
+
+    ul.nav-links {
+        left: 0em;
+        top: 0em;
+        flex-direction: column;
+        height: 100%;
+        width:35%;
+        background-color: #25313c;
+        z-index: 100;
+        padding: 2.5em 1.5em;
+        position: fixed;
+        opacity: 0;
+    }
+
+    
+    ul.nav-links li {
+        margin-bottom: 1.5em;
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 797px){
+    #drop{
+        opacity: 1 !important;
+    }
+}
